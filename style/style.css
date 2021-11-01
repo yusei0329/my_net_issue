@@ -5,9 +5,16 @@ body{
 }
 
 .header {
-  padding: 10px;
-  padding-left: 5%;
-  text-align: left;
+    background: #fff;
+    display: flex;
+    padding: 5px 30px;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.5vw;
+}
+
+.under1 {
+  background: linear-gradient(transparent 70%, #ffffff 90%);
 }
 
 
@@ -38,10 +45,11 @@ body{
   .container {
     display: grid;
     gap: 10px;
-    grid-template-columns: 2fr minmax(10px, 1fr);
+    grid-template-columns: 2fr 1fr;
   }
   
   .container_left {
+    padding-left: 5%;
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr minmax(10px, 2fr);
@@ -99,8 +107,8 @@ body{
   }
 
   .main_header {
-    padding-top: 10%;
-    padding-bottom: 18%;
+    padding-top: 20%;
+    padding-bottom: 20%;
     text-align: center;
     font-size: 5vw;
   }
@@ -110,7 +118,7 @@ body{
   }
 
   p {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   a {
     color: black;
@@ -121,14 +129,16 @@ body{
   }
 
   .container {
+    padding-left: 5%;
     display: grid;
-    gap: 10px;
+    gap: 5px;
     grid-template-rows: 1fr 2fr;
   }
   
   .container_left {
+    padding-left: 5%;
     display: grid;
-    gap: 10px;
+    gap: 5px;
     grid-template-rows: 2fr 1fr;
   }
 
@@ -142,7 +152,7 @@ body{
   
   
   .main_imgBox {
-    padding-bottom: 2.5%;
+    padding-bottom: 10px;
     max-width: 100%;
 	  height: auto;
     text-align: right;
@@ -210,5 +220,8 @@ body{
 
 
   .main-footer {
-    padding: 15px;
+    padding-top: 100px;
+    padding-bottom: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
   }
