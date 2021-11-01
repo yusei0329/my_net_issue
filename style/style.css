@@ -137,17 +137,18 @@ body{
   
   .container_left {
     padding-left: 5%;
+    padding-top: 5%;
     display: grid;
     gap: 5px;
     grid-template-rows: 2fr 1fr;
   }
 
   .main_sentence {
-    padding: 10%;
+    padding: 5%;
   }
   
   .main_sentence_left {
-    padding: 10%;
+    padding: 5%;
   }
   
   
