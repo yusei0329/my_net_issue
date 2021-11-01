@@ -9,15 +9,27 @@ body{
   grid-template-columns: 2fr minmax(250px, 1fr);
 }
 
-.main_sentence {
-  padding: 15%;
+.container_left {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 2fr;
 }
 
-.sub_imgBox {
-  height: auto;
-  width: auto;
+.main_sentence {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
 }
+
+.main_sentence_left {
+  padding-left: 5%;
+  padding-right: 30%;
+  padding-top: 10%;
+}
+
+
 .main_imgBox {
+  padding-top: 10%;
   height: 400px;
   width: 700px;
   float: right;
